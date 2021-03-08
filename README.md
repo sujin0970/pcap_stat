@@ -8,11 +8,12 @@ syntax : packet-stat <pcap file> <br>
 sample : packet-stat test.pcap
 
 ## 라이브러리 설치
-$ tar -xvf pcapplusplus.tar.xz (pcapplusplus 라이브러리 압축해제) <br>
 $ sudo apt-get install libpcap-dev <br>
+$ wget http://34.86.103.226:8000/pcap_stat (pcapplusplus 라이브러리 다운로드)<br>
+$ tar -xvf pcapplusplus.tar.xz <br>
 $ cd pcapplusplus  <br>
 $ sudo ./install.sh  <br> 
-=>   Installation complete!   <br>
+===>   Installation complete!   <br>
 
 ## 소스코드 실행
 *** makefile의 pcapplusplus.mk 경로는 우분투버전에 따라 다를 수 있으니, 주의할 것 *** <br>
