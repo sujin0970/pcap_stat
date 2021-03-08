@@ -8,6 +8,7 @@ syntax : packet-stat <pcap file> <br>
 sample : packet-stat test.pcap
 
 ## 라이브러리 설치
+$ tar -xvf pcapplusplus.tar.xz (pcapplusplus 라이브러리 압축해제) <br>
 $ sudo apt-get install libpcap-dev <br>
 $ cd pcapplusplus  <br>
 $ sudo ./install.sh  <br> 
